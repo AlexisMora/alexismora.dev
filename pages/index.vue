@@ -1,19 +1,21 @@
 <template>
-  <div class="flex flex-col justify-center w-full h-screen max-w-3xl mx-auto space-y-2">
-    <div>
-      <h1 class="text-2xl">Index</h1>
-      <p class="text-lg">Here's what I've done so far:</p>
+  <div class="flex flex-col justify-center w-full h-screen max-w-3xl mx-auto font-sans">
+    <div class="flex flex-col justify-center text-center">
+      <div class="mx-auto">
+        <div id="title">
+          <h1 class="text-2xl font-bold">Alexis Mora</h1>
+          <p class="text-lg">Frontend Engineer</p>
+        </div>
+        <div class="mt-12">
+          <h3 class="font-light text-left">About</h3>
+          <p class="mt-6">
+            I'm a software developer focused on frontend & design.
+          </p>
+          <p>
+           Currently i'm building applications as a Frontend Engineer at <a class="text-teal-400" href="https://www.apsl.net/en/">Apsl</a>
+          </p>
+        </div>
+      </div>
     </div>
-    <ul class="mx-8 list-disc">
-      <li>
-        Created a new Nuxt 3 project
-      </li>
-      <li>
-        Added Tailwind
-      </li>
-      <li>
-        Created a new page
-      </li>
-    </ul>
   </div>  
 </template>
