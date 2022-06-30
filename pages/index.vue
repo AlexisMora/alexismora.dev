@@ -1,10 +1,18 @@
 <template>
   <div>
     <div
-      class="flex flex-col justify-center w-full h-screen max-w-3xl mx-auto font-sans"
+      class="flex flex-col justify-center w-full  max-w-3xl mx-auto font-sans"
     >
-      <div class="flex flex-col justify-center text-center">
-        <div class="mx-auto">
+      <div class="flex flex-col justify-center text-center mt-32">
+        <div class="mx-auto my-auto">
+          <a href="#" class="block">
+            <img
+              alt="profil"
+              src="/assets/img/alexis_mora.jpg"
+              class="mx-auto object-cover rounded-full h-32 w-32 mb-4"
+            />
+          </a>
+
           <div id="title">
             <h1 class="text-2xl font-bold">Alexis Mora</h1>
             <p class="text-lg">Frontend Engineer</p>
@@ -31,8 +39,8 @@
           </div>
           <div class="mt-12 text-left">
             <h3 class="font-light text-left">Some of my stuff</h3>
-            <div>
-              <LinksContainer />
+            <div class="mt-6">
+              <BaseCard/>
             </div>
           </div>
         </div>
