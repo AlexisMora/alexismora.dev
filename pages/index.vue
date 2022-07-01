@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-3">
+  <div class="mx-3 mb-6">
     <div
       class="flex flex-col justify-center w-full  max-w-3xl mx-auto font-sans"
     >
