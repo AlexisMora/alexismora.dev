@@ -8,7 +8,7 @@
           <a href="#" class="block">
             <img
               alt="profil"
-              src="/assets/img/alexis_mora.jpg"
+              src="assets/img/alexis_mora.jpg"
               class="mx-auto object-cover rounded-full h-32 w-32 mb-4"
             />
           </a>
