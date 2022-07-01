@@ -1,7 +1,7 @@
 <template>
   <div class="mx-3 mb-20 sm:mb-6">
     <div
-      class="flex flex-col justify-center w-full  max-w-3xl mx-auto font-sans"
+      class="flex flex-col justify-center w-full max-w-3xl mx-auto font-sans"
     >
       <div class="flex flex-col justify-center text-center mt-32">
         <div class="mx-auto my-auto">
@@ -40,8 +40,23 @@
           <div class="mt-12 text-left">
             <h3 class="font-light text-left">Some of my stuff</h3>
             <div class="mt-6">
-              <BaseCard img="alexismora_cryptoextchange.png" title="Crypto Exchange" :tags="['vue','tailwind']" url="https://cryptoexchange-alexis.netlify.app/">
-              Crypto exchange made with vue and the coin market cap API
+              <BaseCard
+                img="alexismora_cryptoextchange.png"
+                title="Crypto Exchange"
+                :tags="['vue', 'tailwind']"
+                url="https://cryptoexchange-alexis.netlify.app/"
+              >
+                <template #img>
+                  <img
+                    alt="blog photo"
+                    src="~/assets/img/alexismora_cryptoextchange.png"
+                    class="max-h-40 w-full object-cover"
+                  />
+                </template>
+                <template #body
+                  >Crypto exchange made with vue and the coin market cap
+                  API</template
+                >
               </BaseCard>
             </div>
           </div>
@@ -52,5 +67,5 @@
 </template>
 
 <script setup lang="ts">
-  import BaseCard from '~/components/BaseCard.vue'
+import BaseCard from "~/components/BaseCard.vue";
 </script>
