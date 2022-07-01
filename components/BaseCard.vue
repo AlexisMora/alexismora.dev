@@ -34,7 +34,7 @@
     url: string
   }
   const props = defineProps<Props>()
-  const imgUrl = `assets/img/${props.img}`
+  const imgUrl = `~/assets/img/${props.img}`
     function goToUrl() {
      window.location.href = props.url
   }
