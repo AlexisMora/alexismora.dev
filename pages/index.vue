@@ -26,9 +26,12 @@
               most of the projects I do are with Vue with Typescript and
               Django-restframework
             </p>
+            <p class="mt-4">
+              Currently i'm building the future of Hotel booking process at
+              <a class="text-teal-400" href="https://www.hotelverse.tech/">Hotelverse</a>
+            </p>
             <p class="mt-2">
-              Currently i'm building applications as a Frontend Engineer at
-              <a class="text-teal-400" href="https://www.apsl.net/en/">Apsl</a>
+              Previously Frontend Engineer at <a class="text-teal-400" href="https://www.apsl.net/en/">Apsl</a>
             </p>
           </div>
           <div class="mt-12 text-left">
