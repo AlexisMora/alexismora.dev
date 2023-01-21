@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'GT-America-CT': ['GT-America-CT'],
+
+      }
+    },
   },
   plugins: [],
 }
