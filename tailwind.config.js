@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'GT-America-CT': ['GT-America-CT'],
-
+        'GT-America-Expanded': ['GT-America-Expanded'],
+        'GT-America-Standard': ['GT-America-Standard'],
       }
     },
   },
