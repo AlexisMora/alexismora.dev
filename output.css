@@ -522,11 +522,6 @@ video {
   margin-right: 3rem;
 }
 
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -551,24 +546,20 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-0 {
-  margin-top: 0px;
+.mt-56 {
+  margin-top: 14rem;
 }
 
 .flex {
   display: flex;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.h-screen {
+  height: 100vh;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
 }
 
 .flex-grow {
@@ -609,10 +600,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.self-start {
-  align-self: flex-start;
 }
 
 .rounded-md {
@@ -674,21 +661,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -701,20 +673,12 @@ video {
   text-align: center;
 }
 
-.align-top {
-  vertical-align: top;
-}
-
-.align-middle {
-  vertical-align: middle;
+.font-GT-America-Standard {
+  font-family: GT-America-Standard;
 }
 
 .font-GT-America-Expanded {
   font-family: GT-America-Expanded;
-}
-
-.font-GT-America-Standard {
-  font-family: GT-America-Standard;
 }
 
 .font-GT-America-CT {
@@ -736,10 +700,6 @@ video {
   line-height: 1.75rem;
 }
 
-.font-black {
-  font-weight: 900;
-}
-
 .font-extrabold {
   font-weight: 800;
 }
@@ -748,14 +708,13 @@ video {
   font-weight: 700;
 }
 
+.font-black {
+  font-weight: 900;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-zinc-300 {
-  --tw-text-opacity: 1;
-  color: rgb(212 212 216 / var(--tw-text-opacity));
 }
 
 .text-amber-400 {
@@ -766,6 +725,11 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-zinc-300 {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 216 / var(--tw-text-opacity));
 }
 
 .transition {
@@ -806,14 +770,14 @@ video {
   border-width: 1px;
 }
 
-.hover\:border-black:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .hover\:border-zinc-900:hover {
   --tw-border-opacity: 1;
   border-color: rgb(24 24 27 / var(--tw-border-opacity));
+}
+
+.hover\:border-black:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .hover\:bg-amber-400:hover {
@@ -850,6 +814,10 @@ video {
     margin-top: 1rem;
   }
 
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
   .md\:w-9\/12 {
     width: 75%;
   }
@@ -860,14 +828,6 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:items-start {
-    align-items: flex-start;
-  }
-
-  .md\:items-center {
-    align-items: center;
   }
 
   .md\:justify-start {
