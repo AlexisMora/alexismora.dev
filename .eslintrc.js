@@ -4,6 +4,14 @@ module.exports = {
     es2021: true,
     node: true
   },
+  parserOptions: {
+    project: './tsconfig.json',
+    ecmaVersion: 'browser',
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
   settings: {
     react: {
       version: 'detect'
@@ -27,12 +35,9 @@ module.exports = {
   ],
 
   overrides: [],
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
-  },
   rules: {
     semi: 'error',
+    'no-unused-vars': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
     'react/react-in-jsx-scope': 'off',
