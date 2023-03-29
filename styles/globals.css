@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "GT-America-CT";
+  src: url("../asset/fonts/GT-America/GT-America-Condensed-Thin-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GT-America-Expanded";
+  src: url("../asset/fonts/GT-America/GT-America-Expanded-Regular-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GT-America-Standard";
+  src: url("../asset/fonts/GT-America/GT-America-Standard-Regular-Trial.otf") format("opentype");
+}
