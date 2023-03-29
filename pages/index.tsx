@@ -1,8 +1,8 @@
-import ContactSection from './Components/ContactSection/ContactSection'
-import Footer from './Components/Footer/Footer'
-import HeroSection from './Components/HeroSection/HeroSection'
-import MainSection from './Components/MainSection/MainSection'
-import PortFolioSection from './Components/PortFolioSection/PortFolioSection'
+import ContactSection from '../Components/ContactSection/ContactSection'
+import Footer from '../Components/Footer/Footer'
+import HeroSection from '../Components/HeroSection/HeroSection'
+import MainSection from '../Components/MainSection/MainSection'
+import PortFolioSection from '../Components/PortFolioSection/PortFolioSection'
 
 export default function Home() {
   return (
