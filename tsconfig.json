@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["postcss.config.js","tailwind.config.js",".eslintrc.js","next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next.config.js", "postcss.config.js","tailwind.config.js",".eslintrc.js","next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
