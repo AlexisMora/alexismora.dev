@@ -28,7 +28,7 @@ const PortFolioCard: FC<Props> = ({
         </a>
         <a
           href={githubLink}
-          className="font-GT-America-Standard cursor-pointer transition ease-in-out duration-300 bg-dark hover:bg-primary text-primary hover:text-dark border border-primary hover:border hover:border-dark font-bold px-4 py-2 rounded-lg"
+          className="ml-1 font-GT-America-Standard cursor-pointer transition ease-in-out duration-300 bg-dark hover:bg-primary text-primary hover:text-dark border border-primary hover:border hover:border-dark font-bold px-4 py-2 rounded-lg"
         >
           Github
         </a>
